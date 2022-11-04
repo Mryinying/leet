@@ -4,7 +4,7 @@ import com.zephyr.leet.model.PipelineUser;
 import org.springframework.data.mongodb.repository.ReactiveMongoRepository;
 import org.springframework.stereotype.Repository;
 
-//@Repository
+@Repository
 public interface PipelineUserRepository extends ReactiveMongoRepository<PipelineUser, Long> {
 
 }

@@ -3,8 +3,8 @@ package com.zephyr.leet.config;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.data.mongodb.repository.config.EnableReactiveMongoRepositories;
 
-//@Configuration
-//@EnableReactiveMongoRepositories
+@Configuration
+@EnableReactiveMongoRepositories(basePackages = "com.zephyr.leet.repository")
 public class MongoCollectionConfiguration {
 
 //    @Bean

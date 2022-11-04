@@ -8,8 +8,8 @@ import org.springframework.web.bind.annotation.*;
 import reactor.core.publisher.Flux;
 import reactor.core.publisher.Mono;
 
-//@RestController
-//@RequestMapping("/pipelineUser")
+@RestController
+@RequestMapping("/pipelineUser")
 public class PipelineUserController {
 
     private PipelineUserRepository pipelineUserRepository;
