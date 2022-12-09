@@ -25,9 +25,15 @@ dependencies {
 //    implementation 'org.springframework.boot:spring-boot-starter-jooq'
     implementation 'org.springframework.boot:spring-boot-starter-webflux'
     implementation 'org.springframework.boot:spring-boot-starter-data-mongodb-reactive'
+    implementation 'mysql:mysql-connector-java:8.0.30'
+
+//    implementation 'org.activiti:activiti-engine:7.1.0.M6'
+//    implementation 'org.activiti:activiti-spring:7.1.0.M6'
+//    implementation 'org.activiti:activiti-modeler:7.1.0.M6'
+//    implementation 'org.activiti:activiti-diagram-rest:7.1.0.M6'
+
     compileOnly 'org.projectlombok:lombok'
     developmentOnly 'org.springframework.boot:spring-boot-devtools'
-//    runtimeOnly 'com.mysql:mysql-connector-j'
     annotationProcessor 'org.springframework.boot:spring-boot-configuration-processor'
     annotationProcessor 'org.projectlombok:lombok'
     testImplementation 'org.springframework.boot:spring-boot-starter-test'
